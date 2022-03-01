@@ -1,0 +1,13 @@
+.head{
+    margin-left: 10%;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: bisque;
+}
+
+.buttons{
+    background-color: white;
+    margin-left: 50%;
+    border-radius: 5px;
+    padding: 5px;
+}

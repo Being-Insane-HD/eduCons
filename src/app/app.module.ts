@@ -7,8 +7,8 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { ContactComponent } from './contact/contact.component';
 import { TeamComponent } from './team/team.component';
-import { AppointmentComponent } from './appointment/appointment.component';
-import { ProfileComponent } from './profile/profile.component';
+import { AppointComponent } from './landing-page/appoint/appoint.component';
+import { ProfileComponent } from './landing-page/profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -17,8 +17,8 @@ import { ProfileComponent } from './profile/profile.component';
     RegisterComponent,
     ContactComponent,
     TeamComponent,
-    AppointmentComponent,
-    ProfileComponent
+    AppointComponent,
+    ProfileComponent,
   ],
   imports: [
     BrowserModule,

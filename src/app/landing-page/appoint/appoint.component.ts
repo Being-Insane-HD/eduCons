@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-contact',
-  templateUrl: './contact.component.html',
-  styleUrls: ['./contact.component.css']
+  selector: 'app-appoint',
+  templateUrl: './appoint.component.html',
+  styleUrls: ['./appoint.component.css']
 })
-export class ContactComponent implements OnInit {
+export class AppointComponent implements OnInit {
 
   constructor(
     public router: Router
