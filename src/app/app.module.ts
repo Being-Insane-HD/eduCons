@@ -9,6 +9,14 @@ import { ContactComponent } from './contact/contact.component';
 import { TeamComponent } from './team/team.component';
 import { AppointComponent } from './landing-page/appoint/appoint.component';
 import { ProfileComponent } from './landing-page/profile/profile.component';
+import { HomeComponent } from './home/home.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { LayoutModule } from '@angular/cdk/layout';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatIconModule } from '@angular/material/icon';
+import { MatListModule } from '@angular/material/list';
 
 @NgModule({
   declarations: [
@@ -19,10 +27,18 @@ import { ProfileComponent } from './landing-page/profile/profile.component';
     TeamComponent,
     AppointComponent,
     ProfileComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    LayoutModule,
+    MatToolbarModule,
+    MatButtonModule,
+    MatSidenavModule,
+    MatIconModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
