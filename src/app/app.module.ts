@@ -10,13 +10,10 @@ import { TeamComponent } from './team/team.component';
 import { AppointComponent } from './landing-page/appoint/appoint.component';
 import { ProfileComponent } from './landing-page/profile/profile.component';
 import { HomeComponent } from './home/home.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { LayoutModule } from '@angular/cdk/layout';
-import { MatToolbarModule } from '@angular/material/toolbar';
-import { MatButtonModule } from '@angular/material/button';
-import { MatSidenavModule } from '@angular/material/sidenav';
-import { MatIconModule } from '@angular/material/icon';
-import { MatListModule } from '@angular/material/list';
+import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
+
 
 @NgModule({
   declarations: [
@@ -32,13 +29,11 @@ import { MatListModule } from '@angular/material/list';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule,
-    LayoutModule,
-    MatToolbarModule,
-    MatButtonModule,
-    MatSidenavModule,
-    MatIconModule,
-    MatListModule
+    ReactiveFormsModule,
+    FormsModule,
+    RouterModule,
+    HttpClientModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

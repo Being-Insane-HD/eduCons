@@ -1,2 +1,16 @@
-<p>login works!</p>
+<body>    
+    <h1>Login Form </h1> 
+   <form [formGroup]="loginForm" (ngSubmit)="login()">  
+       <div class="container">   
+           <label>User Email ID : </label>   
+           <input formControlName ="email" type="text" placeholder="Enter Email ID" name="email" required>  
+           <label>Password : </label>   
+           <input formControlName = "password" type="password" placeholder="Enter Password" name="password" required>  
+           <button type="submit" class="cancelbtn">Login</button>  
+           <button type="button" class="cancelbtn"> Cancel</button><br>
+           <input type="checkbox" checked="checked"> Remember me &nbsp;&nbsp;&nbsp;&nbsp;
+           Forgot <a href="#"> password? </a>   
+       </div>   
+   </form>     
+</body>
 <router-outlet></router-outlet>
