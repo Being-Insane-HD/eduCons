@@ -13,6 +13,8 @@ import { HomeComponent } from './home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
+import { ConsultComponent } from './landing-page/consult/consult.component';
+import { BookComponent } from './landing-page/book/book.component';
 
 
 @NgModule({
@@ -24,7 +26,9 @@ import { RouterModule } from '@angular/router';
     TeamComponent,
     AppointComponent,
     ProfileComponent,
-    HomeComponent
+    HomeComponent,
+    ConsultComponent,
+    BookComponent
   ],
   imports: [
     BrowserModule,
